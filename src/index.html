@@ -1,17 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildflower & Wonderful Cabin Guidebook</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+details {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+</style>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+<div class="container">
+<h1>Wildflower & Wonderful Cabin Guidebook</h1>
+
+<details open>
+<summary>Check-In</summary>
+<ul>
+<li>Check-in after 4:00 PM</li>
+<li>Pick up key at Black Bear Resort Lodge</li>
+<li>Address: 45 Wildflower Way, Cabin #30, Davis WV</li>
+<li>Late arrivals: use "Late Check-Ins" door</li>
+</ul>
+</details>
+
+<details>
+<summary>Check-Out</summary>
+<ul>
+<li>Check-out by 11:00 AM</li>
+<li>Return key to Lodge or drop box</li>
+<li>Start dishwasher & laundry</li>
+<li>Leave thermostat at 60° (Oct–Apr)</li>
+<li>Bag trash and leave at driveway</li>
+</ul>
+</details>
+
+<details>
+<summary>House Rules</summary>
+<ul>
+<li>No smoking or parties</li>
+<li>Turn off HVAC if windows are open</li>
+<li>Quiet hours for outdoor lighting: 10pm–8am</li>
+<li>Excess cleaning or damage will incur fees</li>
+</ul>
+</details>
+
+<details>
+<summary>Directions & Parking</summary>
+<ul>
+<li>Turn onto Lodge Drive at Black Bear Resort sign</li>
+<li>Right onto Wildflower Way</li>
+<li>Cabin #30 is first on left</li>
+<li>Parking: 2 spaces in driveway</li>
+</ul>
+</details>
+
+<details>
+<summary>WiFi</summary>
+<ul>
+<li><strong>Network:</strong> WildFlowerWifi</li>
+<li><strong>Password:</strong> BlackBearCabin30</li>
+</ul>
+
+<iframe src="https://player.vimeo.com/video/1187390491"></iframe>
+
+<p><strong>Reset WiFi:</strong></p>
+<iframe src="https://player.vimeo.com/video/1187390497"></iframe>
+
+</details>
+
+<details>
+<summary>Fireplace</summary>
+
+<iframe src="https://player.vimeo.com/video/1185278222"></iframe>
+
+<ul>
+<li>Open glass doors and flue before lighting</li>
+<li>Keep flue open at all times</li>
+<li>Glass doors MUST stay open while fire is active</li>
+<li>Close doors only when fire is fully out</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Kitchen Appliances</summary>
+
+<h4>Coffee Maker</h4>
+<iframe src="https://player.vimeo.com/video/1185277029"></iframe>
+
+<h4>Toaster</h4>
+<iframe src="https://player.vimeo.com/video/1187390492"></iframe>
+
+<h4>Microwave</h4>
+<iframe src="https://player.vimeo.com/video/1187390499"></iframe>
+
+<h4>Stovetop</h4>
+<iframe src="https://player.vimeo.com/video/1187390502"></iframe>
+
+<h4>Oven</h4>
+<iframe src="https://player.vimeo.com/video/1185283252"></iframe>
+
+<h4>Dishwasher</h4>
+<iframe src="https://player.vimeo.com/video/1185281646"></iframe>
+
+</details>
+
+<details>
+<summary>TV & Entertainment</summary>
+
+<iframe src="https://player.vimeo.com/video/1187390476"></iframe>
+
+<ul>
+<li>Samsung TV+ loads automatically</li>
+<li>Use "Home" to access streaming apps</li>
+<li>Super Nintendo available in loft</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Bathroom & Laundry</summary>
+
+<ul>
+<li>Shower: HOT is to the RIGHT</li>
+<li>Washer/dryer in bathroom</li>
+<li>Use cold + large load for washing</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Thermostat</summary>
+
+<iframe src="https://player.vimeo.com/video/1185281145"></iframe>
+
+<ul>
+<li>Modes: OFF / HEAT / COOL</li>
+<li>Set to 60° (winter) or 78° (summer) at checkout</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Local Recommendations</summary>
+
+<h4>Restaurants</h4>
+<ul>
+<li>Sirianni’s Café (Davis)</li>
+<li>Wicked Wilderness (Davis)</li>
+<li>TipTop (Thomas)</li>
+<li>ISH Kitchen (Davis)</li>
+<li>Hellbender Burritos (Davis)</li>
+</ul>
+
+<h4>Breweries & Bars</h4>
+<ul>
+<li>Stumptown Ales</li>
+<li>Mountain State Brewing Co.</li>
+<li>Purple Fiddle</li>
+</ul>
+
+<h4>Outdoor Activities</h4>
+<ul>
+<li>Blackwater Falls State Park</li>
+<li>Timberline Mountain</li>
+<li>Dolly Sods Wilderness</li>
+<li>Canaan Valley Wildlife Refuge</li>
+</ul>
+
+</details>
+
+</div>
+
+</body>
 </html>
